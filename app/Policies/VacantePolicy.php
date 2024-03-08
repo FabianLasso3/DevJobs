@@ -14,8 +14,8 @@ class VacantePolicy
      */
     public function viewAny(User $user)
     {
-        // previene que solo usuarios con el rol 2 - recultador puedan crear vacantes 
-        return $user->rol===0;
+        // previene que solo usuarios puedan acceder a una interfaz. con el rol 2 - recultador puedan crear vacantes 
+        return $user->rol===2;
     }
 
     /**
@@ -32,7 +32,7 @@ class VacantePolicy
     public function create(User $user)
     {
        //si la vacante pertenece al usuriao entonces puede crear vacante
-       return $user->rol===0;
+       return $user->rol===2;
     }
 
     /**

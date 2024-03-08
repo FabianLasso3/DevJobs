@@ -15,6 +15,8 @@
             @endif
 
            <livewire:mostrar-vacantes />
+
+           <p class="w-full mt-10 font-bold text-center text-gray-400 ">DevJobs, Todos los derechos reservados. - Fabian Lasso - 2024</p>
         </div>
     </div>
 </x-app-layout>

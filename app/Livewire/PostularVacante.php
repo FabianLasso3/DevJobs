@@ -22,7 +22,7 @@ class PostularVacante extends Component
 
         //El candidato se pueda postular una sola ves en una vacante
         $exist = Candidato::where('user_id',auth()->user()->id)
-            ->where('vacancy_id', $this->vacante->id)->exists();
+            ->where('vacante_id', $this->vacante->id)->exists();
 
          //   
         $this->vacante = $vacante;
