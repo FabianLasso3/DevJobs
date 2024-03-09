@@ -10,5 +10,5 @@
 
     <livewire:home-vacantes />
 
-    <p class="w-full mt-10 font-bold text-center text-gray-400">DevJobs, Todos los derechos reservados. - Fabian Lasso - 2024</p>
+    <p class="w-full bg-gray-900 font-bold text-center text-gray-400">DevJobs, Todos los derechos reservados. - Fabian Lasso - 2024</p>
 </x-app-layout>
